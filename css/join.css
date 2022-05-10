@@ -1,0 +1,484 @@
+/* 공통 */
+h2{
+    color: #404040;
+}
+
+span{
+    font-size: 14px;
+    color: #404040;
+}
+
+fieldset{
+    margin-top: 30px;
+}
+
+.form{
+    margin-top: 30px;
+}
+
+legend{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+legend:before{
+    border: 2px solid #aaa190;
+    width: 100%;
+    content: '';
+    display: block;
+    z-index: -1;
+    left: 0;
+    top: 8px;
+    position: absolute;
+}
+
+legend span{
+    background: #fff;
+    padding: 0 13px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form_box{
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    width: 100%;
+    
+    vertical-align: top;
+}
+
+label b{
+    font-size: 14px;
+}
+
+input{
+    height: 30px;
+    width: 100%;
+    border: 1px solid #aaa190;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.form a{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    background: #aaa190;
+    border: 1px solid #c5bba9;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2;
+}
+
+
+
+/* 회원가입 */
+.join{
+    width: 610px;
+    margin: 0 auto;
+}
+
+.join > h2{
+    margin-top: 275px;
+    margin-bottom: 150px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.join form{
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+
+/* 회원구분 */
+.mem > p{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.radio_box{
+    height: 30px;
+    border: 1px solid #aaa190;
+    border-radius: 5px;
+    padding: 4px 10px;
+}
+
+.radio_box p{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.mem .radio_box p:last-child{
+    margin: 0;
+}
+
+input[type="radio"]{
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 50%;
+    border: 1px solid #aaa190;
+    cursor: pointer;
+    height: 15px;
+    width: 15px; 
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+input[type="radio"]:checked:after{
+    display: block;
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #aaa190;
+    margin: 3px;
+}
+
+.mem .radio_box label{
+    margin: 0;
+    text-align: left;
+    color: #404040;
+    width: auto;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+
+
+/* 기본정보 */
+.error{
+    display: none;
+    margin: 3px 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: #cb2d2d;
+}
+
+#user_tel{
+    width: 365px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.basic .form_box .form:nth-child(5){
+    margin-top: 0;
+    height: auto;
+}
+
+#user_mail{
+    width: 230px;
+    float: left;
+}
+
+.basic p{
+    margin: 6px 2%;
+    width: 3%;
+    float: left;
+}
+
+#choose_email{
+    height: 30px;
+    width: 230px;
+    padding: 0 10px;
+    float: right;
+    border: 1px solid #aaa190;
+    border-radius: 5px;
+}
+
+
+
+/* 배송지정보 */
+#user_address{
+    width: 365px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.delivery .form:nth-child(3) input{
+    width: 30%;
+    float: left;
+}
+
+.delivery .form:nth-child(3) p{
+    float: left;
+    padding: 1.8%;
+    width: 5%;
+}
+
+
+
+/* 이용약관 */
+.term .form_box{
+    margin-top: 40px;
+}
+
+.term p{
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"]{
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 2px;
+    border: 1px solid #aaa190;
+    cursor: pointer;
+    height: 15px;
+    width: 15px; 
+    padding: 0;
+    margin: 0 5px 0 0;
+    position: relative;
+}
+
+input[type="checkbox"]:checked:after{
+    display: block;
+    background: #aaa190 url(../img/icon/check.png) no-repeat center;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    padding: 0;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+
+.term label{
+    font-size: 14px;
+    display: inline-block;
+    color: #404040;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.term p:last-child label{
+    font-weight: bold;
+    width: 90%;
+}
+
+textarea{
+    resize: none;
+    width: 500px;
+    height: 400px;
+    color: #404040;
+    font-size: 12px;
+    white-space: pre-line;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #aaa190;
+}
+
+textarea:last-of-type{
+    height: 150px;
+}
+
+
+
+/* 하단 버튼 */
+.btn{
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 40px;
+}
+
+.btn span{
+    width: 240px;
+    height: 40px;
+    display: inline-block;
+    background: #aaa190;
+    border: 1px solid #c5bba9;
+    border-radius: 5px;
+    text-align: center;  
+}
+
+.btn span:first-child{
+    background: #fff;
+    border: 1px solid #aaa190;
+    margin-right: 16px;
+}
+
+.btn span a{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.5;
+    color: #aaa190;
+}
+
+.btn span:nth-child(2) a{
+    color: #fff;
+}
+
+
+
+/* 푸터 */
+footer{
+    margin-top: 150px;
+}
+
+
+
+
+/* 태블릿 1024 */
+@media screen and (max-width : 1024px){
+.join > h2 {
+    font-size: 32px;}
+    
+}
+
+
+
+
+/* 큰모바일 614 */
+@media screen and (max-width : 614px){
+    /* 공통 */
+    .form a{
+        width: 30.304%;
+        height: 30px;
+        font-size: 14px;
+    }
+    
+    label b{
+        font-size: 12px;
+    }
+    
+    
+    /* 회원가입 */
+    .join{
+        width: 89.57654723127036vw;
+        margin: 0 auto;
+    }
+    
+
+
+    /* 기본정보 */
+    .basic #user_tel{
+        width: 67.677%;
+        margin-right: 2.023%;
+    }
+    
+    .basic #user_tel_check{
+        width: 100%;
+        margin-right: 2.023%;
+    }
+    
+    #user_mail{
+        width: 50%;
+    }
+
+    #choose_email{
+        height: 30px;
+        width: 41%;
+        padding: 0 10px;
+    }
+    
+    
+    
+    /* 배송지정보 */
+    #user_address{
+        width: 67.677%;
+        margin-right: 2.023%;
+    }
+
+    
+    
+    /* 이용약관 */
+    textarea{
+        width: 100%;
+    }
+    
+    
+    
+    /* 하단 버튼 */
+    .btn{
+        width: 100%;
+    }
+
+    .btn span{
+        width: 47.8%;
+        height: 40px;
+    }
+
+    .btn span:first-child{
+        margin-right: 3%;
+    }
+
+    .btn span a{
+        font-size: 14px;
+        line-height: 2.5;
+    }
+}
+    
+    
+    
+    
+/* 모바일 440 */
+@media screen and (max-width : 440px){
+    .join > h2 {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+    
+    
+
+/* 모바일 375 */
+@media screen and (max-width : 375px){
+    /* 공통 */
+    .form{
+        margin-top: 15px;
+    }
+    
+    .form a{
+        font-size: 12px;
+        line-height: 2.3;
+    }
+    
+    /* 회원가입 */
+    .join h2{
+        font-size: 24px;
+        margin-top: 150px;
+        margin-bottom: 80px;
+    }
+        
+        
+    /* 회원구분 */
+    .radio_box {
+        height: 100%;
+        padding: 10px 10px;
+    }
+ 
+    
+    
+    /* 이용약관 */
+    .term label{
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+
+

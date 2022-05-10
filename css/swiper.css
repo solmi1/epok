@@ -1,0 +1,96 @@
+/* main 페이지네이션 */
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 0 0 16px;
+}
+
+.swiper-pagination-bullet{
+    border: 2px solid #fff;
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    background: none;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet:first-child{
+    margin: 0;
+}
+
+.swiper-pagination-bullet-active{
+    background: #fff;
+}
+
+
+
+
+
+/* best 스와이퍼 */
+.best_inner{
+    position: relative;
+}
+
+.best .swiper-button-prev,
+.best .swiper-button-next {
+    position: absolute;
+    top: 65%;
+    width: 24px;
+    height: 39px;
+    z-index: 1;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.best .swiper-button-prev.swiper-button-disabled,
+.best .swiper-button-next.swiper-button-disabled {
+    opacity: 1;
+    cursor: auto;
+    pointer-events: none;
+}
+.best .swiper-button-prev,
+.best .swiper-container-rtl .swiper-button-next {
+    background-image: url("../img/icon/arrow_left.png");
+    left: 0;
+}
+
+.best .swiper-button-next,
+.best .swiper-container-rtl .swiper-button-prev {
+    background-image: url("../img/icon/arrow_right.png");
+    right: 0;
+}
+
+.best .swiper-button-next:after, .swiper-button-prev:after{
+    display: none;
+}
+
+.best .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{
+    position: absolute;
+    left: 50%;
+    bottom: 1.041666666666667vw;
+    transform: translateX(-50%);
+}
+
+
+
+/* 모바일 460 */
+@media screen and (max-width : 460px){
+    .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{
+        margin: 0 0 0 10px;
+    }
+    
+    .swiper-pagination-bullet{
+        border: 1px solid #fff;
+        width: 10px;
+        height: 10px;
+    }
+    
+    .swiper-pagination-bullet-active{
+        background: #fff;
+    }
+}
+
+
+
+
+
+
+

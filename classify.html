@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1, maximum-scale=1">
+    
+    <meta name="robots" content="index, follow">
+    
+    <meta name="subject" content="EPOK 홈페이지">
+    <meta name="generator" content="brackets, phothoshop, illustrator">
+    <meta name="author" content="EPOK">
+    <meta name="keywords" content="EPOK, 홈데코">
+    <meta name="description" content="EPOK와 함께 홈데코를 진행해봐요">
+    
+    <meta name="og:title" content="EPOK">
+    <meta name="og:url" content="http://ssssmi.dothome.co.kr/"> <!--절대주소로 할 것-->
+    <meta name="og:image" content="http://ssssmi.dothome.co.kr/img/icon/og.png"> <!--절대주소로 할 것-->
+    <meta name="og:description" content="EPOK와 함께 홈데코를 진행해봐요">
+    
+    <title>EPOK</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="img/icon/favicon.ico">
+    
+    <!-- 노토산스 웹폰트 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/join.css">
+	<link rel="stylesheet" href="css/classify.css">
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    
+    <!-- 메인 js-->
+    <script src="js/main.js"></script>
+    
+    <!-- 스와이퍼 js -->
+    <script src="js/swiper.js"></script>
+    
+    <script src="js/jquery.validate.js"></script>
+</head>
+	
+<body>
+	<div class="container">
+        <header>
+            <div class="gnb">
+                <h1><a href="index.html"><img src="img/icon/header_logo.png" alt="EPOK LOGO"></a></h1>
+                <h1><a href="index.html"><img src="img/icon/header_logo2.png" alt="EPOK LOGO"></a></h1>
+                   
+                <!-- 탑메뉴 -->
+                <ul class="top_menu">
+                    <li><a href="#">LOGIN</a></li>
+                    <li><a href="join.html">JOIN</a></li>
+                    <li><a href="#">CART</a></li>
+                    <li><a href="#">MYPAGE</a></li>
+                    <li><a href="#">COMMUNITY</a></li>
+                </ul>
+
+                <!-- 탑아이콘(태블릿,모바일) -->
+                <ul class="top_icon">
+                    <li><a href="#"><img src="img/icon/mypage.png" alt="mypage"></a></li>
+                    <li><a href="#"><img src="img/icon/cart.png" alt="cart"></a></li>
+                </ul>
+
+                <!-- 햄버거메뉴 -->
+                <input class="burger-check" type="checkbox" id="burger-check">
+
+                <label class="burger-icon" for="burger-check">
+                    <span class="burger-sticks"></span>
+                </label>
+                  
+                <!-- PC 메뉴 -->
+                <nav class="m_p">
+                    <ul>
+                        <li class="m">
+                            <a href="company.html">ABOUT US</a>
+                        </li>
+                        
+                        <li class="m">
+                            <a href="#">KITCHEN</a>
+                            <ul>
+                                <li><a href="#">CUP</a></li>
+                                <li><a href="#">TRAY</a></li>
+                                <li><a href="#">PLATE</a></li>
+                                <li><a href="#">CUTLERY</a></li>
+                                <li><a href="#">TEA & TEAWARE</a></li>
+                                <li><a href="#">ACC</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="m">
+                            <a href="#">HOME DECOR</a>
+                            <ul>
+                                <li><a href="#">VASE</a></li>
+                                <li><a href="#">CANDLE HOLDER</a></li>
+                                <li><a href="#">STORAGE</a></li>
+                                <li><a href="#">OBJECT</a></li>
+                                <li><a href="#">RUG</a></li>
+                                <li><a href="#">CLOCK</a></li>
+                                <li><a href="#">POSTER</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="m">
+                            <a href="#">FURNITURE</a>
+                            <ul>
+                                <li><a href="#">SHELVES</a></li>
+                                <li><a href="#">HANGER</a></li>
+                                <li><a href="#">TABLE</a></li>
+                                <li><a href="#">CHAIR</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="m">
+                            <a href="#">FABRIC</a>
+                            <ul>
+                                <li><a href="#">BEDDING</a></li>
+                                <li><a href="#">COVER</a></li>
+                                <li><a href="#">CUSHION</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="m"><a href="#">SALE</a></li>
+                        
+                        <li class="m"><a href="#">B2B</a></li>
+                    </ul>
+                </nav>
+                
+                <!-- 태블릿 메뉴 -->
+                <nav class="m_t">
+                    <div class="m_inner">
+                        <div class="log">
+                            <a href="join.html">회원가입 +3000</a>
+                            <a href="#">로그인</a>
+                        </div>
+
+                        <div class="category">
+                            <h2>CATEGORY</h2>
+                            <ul>
+                                <li class="m">
+                                    <a href="#">ABOUT US</a>
+                                </li>
+
+                                <li class="m">
+                                    <a href="#">KITCHEN</a>
+                                </li>
+
+                                <li class="m">
+                                    <a href="#">HOME DECOR</a>
+                                </li>
+
+                                <li class="m">
+                                    <a href="#">FURNITURE</a>
+                                </li>
+
+                                <li class="m">
+                                    <a href="#">FABRIC</a>
+                                </li>
+
+                                <li class="m">
+                                    <a href="#">SALE</a>
+                                </li>
+
+                                <li class="m">
+                                    <a href="#">B2B</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="community">
+                            <h2>COMMUNITY</h2>
+                            <ul>
+                                <li class="m">
+                                    <a href="#">NOTICE</a>
+                                </li>
+
+                                <li class="m">
+                                    <a href="#">DELAY</a>
+                                </li>
+
+                                <li class="m">
+                                    <a href="#">Q&A</a>
+                                </li>
+
+                                <li class="m">
+                                    <a href="#">FAQ</a>
+                                </li>
+
+                                <li class="m">
+                                    <a href="#">REVIEW</a>
+                                </li>
+
+                                <li class="m">
+                                    <a href="#">EVENT</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="txt_box">
+                            <p>TEL. 070-4190-1105</p>
+                            <p>MON-FRI 10:00 - 17:00 <br>(SAT, HOLIDAY CLOSED)</p>
+                            <p>우리 1005-593-500001 <br>한정숙(에포크)</p>
+                        </div>
+
+                        <div class="sns">
+                            <a href="https://www.facebook.com/" target="_blank"><img src="img/icon/sns_facebook.png" alt="facebook"></a>
+                            <a href="https://blog.naver.com/epok1205" target="_blank"><img src="img/icon/sns_blog.png" alt="naver_blog"></a>
+                            <a href="https://www.instagram.com/e.p.o.k/" target="_blank"><img src="img/icon/sns_insta.png" alt="insta"></a>
+                        </div>
+                    </div>   
+                </nav>
+            </div>
+        </header>
+        
+        <!-- 퀵메뉴 -->
+        <div class="quickbox">
+            <ul class="q_menu">    
+                <li><a href="#"><img src="img/icon/quick_search.png" alt="search"></a></li>
+                <li><a href="#"><img src="img/icon/quick_eye.png" alt="Recent main item"></a></li> 
+                <li><a href="#"><img src="img/icon/quick_cart.png" alt="cart"></a></li>    
+                <li><a href="#"><img src="img/icon/quick_epost.png" alt="epost"></a></li>    
+            </ul>
+            
+            <ul class="q_inquiry">
+                <li><a href="https://nid.naver.com/nidlogin.login?svctype=64&url=https%3A%2F%2Ftalk.naver.com%2Fct%2Fwccqp2" target="_blank"><img src="img/icon/quick_naver.png" alt="inquire_naver"></a></li>
+                <li><a href="https://pf.kakao.com/_txaxaxdM" target="_blank"><img src="img/icon/quick_kakao.png" alt="inquire_kakao"></a></li>
+            </ul>
+        </div>
+		
+		<!--상품정렬-->
+		<h3>KITCHEN</h3>
+		<div class="product">
+			<ul class="kitchen_list">
+
+				<!-- kitchen_1 -->
+				<li>
+					<a href="#">
+						<img src="img/new/Gressier.jpg" alt="에포크 - 그레시에 누들 & 스프볼">
+						<div class="info">
+							<h4>[EPOK] 그레시에 누들 / 스프볼</h4>
+							<span>₩ 33,000</span>
+						</div>
+					</a>
+				</li>
+				
+				<!-- kitchen_2 -->
+				<li>
+					<a href="#">
+						<img src="img/new/Gressier.jpg" alt="에포크 - 그레시에 누들 & 스프볼">
+						<div class="info">
+							<h4>[EPOK] 그레시에 누들 / 스프볼</h4>
+							<span>₩ 33,000</span>
+						</div>
+					</a>
+				</li>
+				
+				<!-- kitchen_3 -->
+				<li>
+					<a href="#">
+						<img src="img/new/Gressier.jpg" alt="에포크 - 그레시에 누들 & 스프볼">
+						<div class="info">
+							<h4>[EPOK] 그레시에 누들 / 스프볼</h4>
+							<span>₩ 33,000</span>
+						</div>
+					</a>
+				</li>
+				
+				<!-- kitchen_4 -->
+				<li>
+					<a href="#">
+						<img src="img/new/Gressier.jpg" alt="에포크 - 그레시에 누들 & 스프볼">
+						<div class="info">
+							<h4>[EPOK] 그레시에 누들 / 스프볼</h4>
+							<span>₩ 33,000</span>
+						</div>
+					</a>
+				</li>
+				
+				<!-- kitchen_5 -->
+				<li>
+					<a href="#">
+						<img src="img/new/Gressier.jpg" alt="에포크 - 그레시에 누들 & 스프볼">
+						<div class="info">
+							<h4>[EPOK] 그레시에 누들 / 스프볼</h4>
+							<span>₩ 33,000</span>
+						</div>
+					</a>
+				</li>
+				
+				<!-- kitchen_6 -->
+				<li>
+					<a href="#">
+						<img src="img/new/Gressier.jpg" alt="에포크 - 그레시에 누들 & 스프볼">
+						<div class="info">
+							<h4>[EPOK] 그레시에 누들 / 스프볼</h4>
+							<span>₩ 33,000</span>
+						</div>
+					</a>
+				</li>
+				
+				<!-- kitchen_7 -->
+				<li>
+					<a href="#">
+						<img src="img/new/Gressier.jpg" alt="에포크 - 그레시에 누들 & 스프볼">
+						<div class="info">
+							<h4>[EPOK] 그레시에 누들 / 스프볼</h4>
+							<span>₩ 33,000</span>
+						</div>
+					</a>
+				</li>
+				
+				<!-- kitchen_8 -->
+				<li>
+					<a href="#">
+						<img src="img/new/Gressier.jpg" alt="에포크 - 그레시에 누들 & 스프볼">
+						<div class="info">
+							<h4>[EPOK] 그레시에 누들 / 스프볼</h4>
+							<span>₩ 33,000</span>
+						</div>
+					</a>
+				</li>
+				
+				<!-- kitchen_9 -->
+				<li>
+					<a href="#">
+						<img src="img/new/Gressier.jpg" alt="에포크 - 그레시에 누들 & 스프볼">
+						<div class="info">
+							<h4>[EPOK] 그레시에 누들 / 스프볼</h4>
+							<span>₩ 33,000</span>
+						</div>
+					</a>
+				</li>
+				
+				<!-- kitchen_10 -->
+				<li>
+					<a href="#">
+						<img src="img/new/Gressier.jpg" alt="에포크 - 그레시에 누들 & 스프볼">
+						<div class="info">
+							<h4>[EPOK] 그레시에 누들 / 스프볼</h4>
+							<span>₩ 33,000</span>
+						</div>
+					</a>
+				</li>
+				
+				<!-- kitchen_11 -->
+				<li>
+					<a href="#">
+						<img src="img/new/Gressier.jpg" alt="에포크 - 그레시에 누들 & 스프볼">
+						<div class="info">
+							<h4>[EPOK] 그레시에 누들 / 스프볼</h4>
+							<span>₩ 33,000</span>
+						</div>
+					</a>
+				</li>
+				
+				<!-- kitchen_12 -->
+				<li>
+					<a href="#">
+						<img src="img/new/Gressier.jpg" alt="에포크 - 그레시에 누들 & 스프볼">
+						<div class="info">
+							<h4>[EPOK] 그레시에 누들 / 스프볼</h4>
+							<span>₩ 33,000</span>
+						</div>
+					</a>
+				</li>
+				
+			</ul>
+		</div>
+		
+		<!--푸터-->
+        <footer>
+            <div class="inner1">
+
+                <h1><img src="img/icon/footer_logo.png" alt="하단로고"></h1>
+
+                <address>
+                    <div class="txt">
+                            <div class="info">
+                                <p><b>온라인 고객센터</b></p>
+                                <p>TEL. 070-4190-1105</p>
+                            </div>
+
+                            <div class="info">
+                                <p><b>은행정보</b></p>
+                                <p>우리은행 1005-593-500001 <br>예금주 : 한정숙(에포크)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="txt">
+                            <div class="epok_copy">
+                                <p><b>EPOK(에포크)</b></p>
+                                <p>COPYRIGHT © EPOK(에포크) ALL RIGHTS RESERVED.</p>
+                            </div>
+
+                            <div class="info">
+                                <p><span>OWNER</span>한정숙</p>
+                                <p><span>ADDRESS</span><i>463871 경기도 성남시 분당구 미금로 45 <br>진도훼미리프라자 203호</i></p>
+                                <p><span>E-MAIL</span>erinhan@epok.kr</p>
+                                <p><span>사업자번호</span>308-40-00142</p>
+                            </div>
+                        </div>
+                        
+                        <div class="txt">
+                            <div class="info">
+                                <p><b>RETURN / EXCHANGE</b></p>
+                                <p>경기도 성남시 분당구 미금로 45 2층 204-2호 <br>
+                                자세한 교환·반품절차 안내는 문의란 및 공지사항을 참고해주세요.</p>
+                            </div>
+                            
+                            <div class="time">
+                                <p>평일  10:00 - 17:00 <br></p>
+                                <p>점심시간 12:00 - 13:00 </p>
+                                <p>토 / 일 / 공휴일 휴무 </p>
+                            </div>
+                        </div>
+                        
+                        <div class="sns">
+                            <a href="https://www.facebook.com/" target="_blank"><img src="img/icon/sns_facebook.png" alt="facebook"></a>
+                            <a href="https://blog.naver.com/epok1205" target="_blank"><img src="img/icon/sns_blog.png" alt="naver_blog"></a>
+                            <a href="https://www.instagram.com/e.p.o.k/" target="_blank"><img src="img/icon/sns_insta.png" alt="insta"></a>
+                        </div>
+                </address>
+            </div>
+        </footer>
+	</div>
+</body>
+</html>
